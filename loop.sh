@@ -33,7 +33,7 @@ function control() {
     echo "$CONTROL_FILE found. Make another run ..."
   else
     echo "$CONTROL_FILE not found - stopping after cleaning up ..."
-    docker system prune --all --volumes -f
+    #docker system prune --all --volumes -f
     echo "Exit"
     exit 1
   fi

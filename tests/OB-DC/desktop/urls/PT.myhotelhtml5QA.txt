@@ -1,0 +1,5 @@
+https://myhotel-html5-qa.omnibees.test/html5/buyersByChain?hideNavigation=true&lang=pt&rand=0.522673833055022&hotel_id=1935 ManageBuyers
+https://myhotel-html5-qa.omnibees.test/html5/channels-by-chain?hideNavigation=true&lang=pt&rand=0.4811460607869025&hotel_id=193 ManageChannels
+https://myhotel-html5-qa.omnibees.test/html5/channelActivation?hideNavigation=true&lang=pt&rand=0.8167474746485042&hotel_id=1935 ChannelActivation
+https://myhotel-html5-qa.omnibees.test/html5/rateCodeSetup?hideNavigation=true&lang=pt&rand=0.03793097220955999&hotel_id=1935&undefined RateCodeSetup
+https://myhotel-html5-qa.omnibees.test/html5/manageReservations?hideNavigation=true&lang=pt&rand=0.03793097220955999&hotel_id=1935 ManageReservations
