@@ -2,3 +2,5 @@
 node_modules
 sitespeed.run
 sitespeed-result/*
+config/myhotelhtml5QA.js
+config/secrets.json
