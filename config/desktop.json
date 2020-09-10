@@ -1,37 +1,37 @@
 {
-  "extends": "/config/secrets.json",
-  "browsertime": {
-    "connectivity": {
-      "engine": "throttle",
-      "profile": "cable"
+    "extends": "./config/secrets.json",
+    "browsertime": {
+      "connectivity": {
+        "engine": "throttle",
+        "profile": "cable"
+      },
+      "visualElements": true,
+      "iterations": 3,
+      "browser": "chrome",
+      "video": true,
+      "visualMetric": true,
+      "chrome": {
+        "collectConsoleLog": true,
+        "enableTraceScreenshots": true
+      },
+      "firefox": {
+        "includeResponseBodies": "all",
+        "disableBrowsertimeExtension": true,
+        "windowRecorder": true,
+        "geckoProfiler": true
+      },
+      "pageLoadStrategy": "none",
+      "pageCompleteCheckStartWait": 5000,
+      "pageCompleteCheckPollTimeout": 1000
     },
-    "visualElements": true,
-    "iterations": 3,
-    "browser": "chrome",
-    "video": true,
-    "visualMetric": true,
-    "chrome": {
-      "collectConsoleLog": true,
-      "enableTraceScreenshots": true
+    "cpu": true,
+    "gzipHAR": true,
+    "html": {
+      "fetchHARFiles": true,
+      "showScript": true,
+      "compareURL": "https://compare.sitespeed.io/"
     },
-    "firefox": {
-      "includeResponseBodies": "all",
-      "disableBrowsertimeExtension": true,
-      "windowRecorder": true,
-      "geckoProfiler": true
-    },
-    "pageLoadStrategy": "none",
-    "pageCompleteCheckStartWait": 5000,
-    "pageCompleteCheckPollTimeout": 1000
-  },
-  "cpu": true,
-  "gzipHAR": true,
-  "html": {
-    "fetchHARFiles": true,
-    "showScript": true,
-    "compareURL": "https://compare.sitespeed.io/"
-  },
-  "screenshot": {
-    "type": "jpg"
+    "screenshot": {
+      "type": "jpg"
+    }
   }
-}

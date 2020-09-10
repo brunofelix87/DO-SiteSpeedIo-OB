@@ -1,0 +1,11 @@
+{
+    "extends": "./config/secrets.json",
+    "browsertime": {
+      "connectivity": {
+        "engine": "throttle",
+        "profile": "cable"
+      },
+      "preScript": "./config/myhotelhtml5QA.js"
+    },
+    "cpu": true
+  }
